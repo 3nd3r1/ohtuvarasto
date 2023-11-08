@@ -57,7 +57,7 @@ def test_virhe_ottaminen(olutta, mehua):
 def main():
     mehua = Varasto(100.0)
     olutta = Varasto(100.0, 20.2)
-
+    # testataan liian pitkiä rivejä kirjoittamalla liian pitkä rivi niin nähdään toimiiko CI
     print("Luonnin jälkeen:")
     print(f"Mehuvarasto: {mehua}")
     print(f"Olutvarasto: {olutta}")
